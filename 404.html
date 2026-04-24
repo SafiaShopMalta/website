@@ -12,7 +12,7 @@
   -->
   <script>
     (function () {
-      var pathSegmentsToKeep = 0; // 0 for user/org site (owner.github.io), 1 for project site (owner.github.io/repo)
+      var pathSegmentsToKeep = 1; // 0 for user/org site (owner.github.io), 1 for project site (owner.github.io/repo)
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
